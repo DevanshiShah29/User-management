@@ -13,7 +13,7 @@ const UserList = () => {
 
   const columns = [
     {
-      Header: "Profile Image",
+      Header: "Profile",
       accessor: "picture.large",
       Cell: (row) => {
         return (
